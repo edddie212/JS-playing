@@ -1,0 +1,117 @@
+html, body{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../Images/Background\ Image.png");
+    background-position: 0% 9%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+*{
+    font-family: Berlin Sans FB;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link .navbar-brand {
+    color: white !important;
+}
+.navbar-brand{
+    font-size: 3vw !important;
+}
+
+.nav-link{
+    font-size: 1.3vw;
+}
+
+.content {
+    margin-top: 17vw;
+    margin-bottom: 35vw;
+}
+h1 {
+    font-size: 4vw !important;
+}
+
+p{
+    font-size:22px;
+text-align: center;
+}
+
+.parallax {
+    height: 30vw;
+    background-image: url("../images/739905.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color:white;
+   display: flex;
+   align-items: center;
+}
+
+input[type="text"]{
+width: 25vw;
+}
+textarea {
+    width: 52vw;
+}
+
+.parallax2{
+    height: 40vw;
+    background-image: url("../Images/pexels-photo-91229.jpeg");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color:white;
+    display: flex;
+    align-items:center;
+}
+
+.parallax2 h2 {
+    color: black;
+    padding-bottom:5vh;
+    text-decoration: underline;
+}
+
+.parallax2 p{
+color: black;
+font-size: 1.3vw;
+}
+
+.btn1 {
+    float:left;
+    background-color: transparent !important;
+    color: black !important;
+}
+
+.btn2 {
+    float:right;
+    background-color:transparent !important;
+    color: black !important;
+}
+
+.cols3 {
+    position: relative;
+}
+.count {
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    padding-top:12vh;
+}
+
+.footer {
+    background-image: url("../Images/Footer.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+
+.rights {
+    position: absolute;
+    bottom: 0;
+    color: white;
+}

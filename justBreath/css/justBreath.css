@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis..com/css?family=Relway');
+@import url('https://fonts.googleapis..com/css?family=Oswald');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.intro {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+     display: table;
+    top: 0;
+    background-image: url("../image/beach-coast-dark-clouds-373346.jpg");
+background-size: cover;
+}
+
+.intro .inner{
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+
+.content {
+    max-width: 500px;
+    margin: 0 auto;
+text-align: center;
+
+}
+
+.content h1 {
+    font-family: 'Ralway', sans-serif;
+    color: white;
+    text-shadow: 0px 0px 300px #000;
+    font-size: 500%;
+}
+
+.btn {
+    border-radius: 9px;
+    font-family: 'Oswald', sans-serif;
+    color: #036A81;
+    font-size: 135%;
+    padding: 10px 20px;
+    border: 3px solid #036A81;
+    text-transform: uppercase;
+    text-decoration: none; 
+}
+.btn1 {
+    border-radius: 9px;
+    font-family: 'Oswald', sans-serif;
+    color: #036A81;
+    font-size: 135%;
+    padding: 10px 20px;
+    border: 3px solid #036A81;
+    text-transform: uppercase;
+    text-decoration: none; 
+    
+}
+#end {
+    text-align: center;
+}
+
+.btn:hover{
+    color: #fff;
+    border: 3px solid #fff;
+}
+
+p {
+    font-size: 110%;
+    line-height: 160%;
+    text-align: justify;
+    margin: 3%;
+    font-family: sans-serif;
+}
+@media screen and (max-width:768px){
+    .content h1{
+        font-size: 250%;
+    }
+    .btn {
+        font-size: 110%;
+        padding: 7px 15px;
+    }
+    p {
+        font-size: 110%;
+        line-height: 160%;
+    }
+}
